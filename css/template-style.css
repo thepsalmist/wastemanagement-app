@@ -2,7 +2,7 @@
 
 /* Typography */
 body {
-  background: rgba(57,99,44,0.57);
+  background: whitesmoke;
 }
 p {
   color: #777;
@@ -334,7 +334,7 @@ nav {
 }
 .top-nav li ul li a, .background-white .top-nav li ul li a, .top-nav .active-item li a {
   background: #002633 none repeat scroll 0 0;
-  color: rgba(255,255,255, 0.75);
+  color: green;
 }
 ul.chevron .submenu > a::after, ul.chevron .sub-submenu > a::after, ul.chevron .aside-submenu > a::after, ul.chevron .aside-sub-submenu > a::after {
   margin: 0 0 0 0.625rem;
@@ -1926,7 +1926,7 @@ header.position-absolute {
 }
 nav {
   border-bottom: 0px solid;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+  border-bottom: 1px solid green;
   padding: 0 2rem;
   position: relative;
   z-index: 2;
@@ -1974,7 +1974,7 @@ nav.fixed .logo-dark, .fixed nav .logo-dark {
   background: #fff none repeat scroll 0 0;
 }
 .top-nav li ul li {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid green;
 }
 .top-nav li ul li:last-child {
   border-bottom: 0;
