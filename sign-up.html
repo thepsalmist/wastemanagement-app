@@ -76,56 +76,76 @@
           <div class="margin">
             <!-- Contact Form -->
             <div class="s-12 m-12 l-6">
-              <h2 class="margin-bottom-10">Leave Message</h2>
+              <h2 class="margin-bottom-10">Become Our Client</h2>
               <form name="contactForm" class="customform" method="post">
                 <div class="line">
                   <div class="margin">
+                    <div class="s-12 m-12 l-6">
+                      <input class="name" placeholder="First name" id="firstName" type="text" />
+                      <p class="name-error form-error">Please enter your First Name.</p>
+                    </div>
+                    <div class="s-12 m-12 l-6">
+                      <input class="name" placeholder="Second name" id="secondName" type="text" />
+                      <p class="name-error form-error">Please enter your Second name.</p>
+                    </div>
+                    <div class="s-12 m-12 l-6">
+                      <input class="name" placeholder="Address" id="clientAddress" type="text" />
+                      <p class="name-error form-error">Please enter your address.</p>
+                    </div>
+                    <div class="s-12 m-12 l-6">
+                      <input class="name" placeholder="Phone Number" id="clientNumber" type="text" />
+                      <p class="name-error form-error">Please enter your phone number.</p>
+                    </div>
                     <div class="s-12 m-12 l-6" id="registerForm">
                       <input name="email" class="required email" placeholder="Your e-mail" title="Your e-mail" type="text" />
                       <p class="email-error form-error">Please enter your e-mail.</p>
                     </div>
-                    <div class="s-12 m-12 l-6">
-                      <input name="name" class="name" placeholder="Your name" title="Your name" type="text" />
-                      <p class="name-error form-error">Please enter your name.</p>
-                    </div>
+
+
                   </div>
                 </div>
                 <div class="s-12">
-                  <input name="subject" class="subject" placeholder="Subject" title="Subject" type="text" />
-                  <p class="subject-error form-error">Please enter the subject.</p>
+                  <input type="text" placeholder="Username" id="clientUsername" name="uname" required>
                 </div>
                 <div class="s-12">
-                  <textarea name="message" class="required message" placeholder="Your message" rows="3"></textarea>
-                  <p class="message-error form-error">Please enter your message.</p>
+                  <input type="password" placeholder="Password" maxlength="8" id="clientPassword" name="psw" required><br>
                 </div>
                 <div class="s-12"><button class="s-12 submit-form button background-primary text-white" type="submit">Submit Button</button></div>
               </form>
             </div>
-            <div class="s-12 m-12 l-4">
-              <h2 class="margin-bottom-10">Office Hours</h2>
-              <div class="s-6">
-                <p class="text-size-16">
-                  Monday<br>
-                  Tuesday<br>
-                  Wednesday<br>
-                  Thursday<br>
-                  Friday<br>
-                  Saturday<br>
-                  Sunday
-                </p>
-              </div>
-              <div class="s-6">
-                <p class="text-size-16 text-strong">
-                  08.00-18.00<br>
-                  08.00-18.00<br>
-                  08.00-18.00<br>
-                  08.00-18.00<br>
-                  08.00-14.00<br>
-                  08.00-14.00<br>
-                  Close
-                </p>
-              </div>
+            <div class="s-12 m-12 l-6">
+              <h2 class="margin-bottom-10">Become Our Recycling Partner</h2>
+              <form name="contactForm" class="customform" method="post">
+                <div class="line">
+                  <div class="margin">
+                    <div class="s-12">
+                      <input class="name" placeholder="Company name" id="companyName" type="text" />
+                      <p class="name-error form-error">Please enter your Company Name.</p>
+                    </div>
+                    <div class="s-12 m-12 l-6">
+                      <input class="name" placeholder="Company Address" id="companyAddress" type="text" />
+                      <p class="name-error form-error">Please enter company address.</p>
+                    </div>
+                    <div class="s-12 m-12 l-6">
+                      <input class="name" placeholder="Phone Number" id="companyNumber" type="text" />
+                      <p class="name-error form-error">Please enter your phone number.</p>
+                    </div>
+                    <div class="s-12 m-12 l-6" id="registerForm">
+                      <input name="email" class="required email" placeholder="Company e-mail" title="Your e-mail" type="text" />
+                      <p class="email-error form-error">Please enter your e-mail.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="s-12">
+                  <input type="text" placeholder="Username" id="companyUsername" name="uname" required>
+                </div>
+                <div class="s-12">
+                  <input type="password" name="pwd" placeholder="Password" maxlength="8" id="companyPassword"><br>
+                </div>
+                <div class="s-12"><button class="s-12 submit-form button background-primary text-white" type="submit">Submit Button</button></div>
+              </form>
             </div>
+
           </div>
         </div>
       </div>
