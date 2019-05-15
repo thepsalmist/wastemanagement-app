@@ -458,6 +458,7 @@ aside.aside-left {
 }
 .text-white, .text-white *, .primary-color-white .text-primary, .primary-color-white .text-primary * {
   color: #fff !important;
+  text-align: center;
 }
 .text-primary, .text-primary *, .primary-color-primary .text-primary, .primary-color-primary .text-primary * {
   color: #C81010 !important;
@@ -490,7 +491,7 @@ aside.aside-left {
   background-color: #C81010 !important;
 }
 .background-dark, .primary-color-dark .background-primary {
-  background-color: #002633 !important;
+  background-color: green !important;
 }
 /* Background Opacity */
 .background-white.background-transparent, .primary-color-white .background-primary.background-transparent {
