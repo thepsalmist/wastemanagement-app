@@ -14,7 +14,7 @@
   border-radius: 2px;
   padding-bottom: 40px;
   padding-top: 20px;
-  height: 200px;
+  height: auto;
 }
 
 #impactRow1, #impactRow2 {
@@ -23,7 +23,7 @@
   border-radius: 2px;
   padding-bottom: 40px;
   padding-top: 20px;
-  height: 200px;
+  height: auto;
 }
 
 #stat1, #stat2 {
