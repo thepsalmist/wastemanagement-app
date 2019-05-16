@@ -19,7 +19,7 @@ the webpage and get to select the type of waste they wish to recieve for recylin
 | Client clicks on submit button                                      | User is taken to the client page    | 
 | Recycler clicks on sumit button                                     | User is taken to the recyclist page | 
 | Click on items on the nav bar                                       | User taken to the respective  pages | 
-| 
+
 ## Setup/Installation Requirements
 To start using this project use the following commands:
 1. git clone https://github.com/thepsalmist/pig-dice
