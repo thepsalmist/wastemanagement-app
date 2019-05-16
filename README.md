@@ -1,10 +1,6 @@
 # WasteMaster
 
-<<<<<<< HEAD
-## Contributers:
-=======
 ## Contributors:
->>>>>>> 6651f797d5dbea8ae1d5b82ae395bd49e80b9aba
 1. Xavier Frankline
 2. Seth Ombae
 3. Eston Karanja
