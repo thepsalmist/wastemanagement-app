@@ -1,7 +1,7 @@
 # WasteMaster
 
-## Contributers:
-1. Xavior Frankline
+## Contributors:
+1. Xavier Frankline
 2. Seth Ombae
 3. Eston Karanja
 4. Sharon Emma C.
@@ -41,7 +41,7 @@ Contact:
 1. xf.xavierfrank4@gmail.com
 2. emmasharon19@gmail.com
 3. estonkaranja881@gmail.com
-4. jrombae@gmail.com
+4. ombaejr@gmail.com
 
 ### License
 MIT License
