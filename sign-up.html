@@ -12,30 +12,33 @@
   <link rel="stylesheet" href="owl-carousel/owl.theme.css">
   <link rel="stylesheet" href="css/template-style.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/style.css">
   <link href='https://fonts.googleapis.com/css?family=Playfair+Display&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="js/scripts.js"></script>
+
+
 </head>
 
 <body class="size-1140">
+  <!-- HEADER -->
   <header role="banner" class="position-absolute">
-    <!-- Top Navigation -->
     <nav class="background-transparent background-transparent-hightlight full-width sticky">
       <div class="s-12 l-2">
         <a href="index.html" class="logo">
-          <!-- Logo White Version -->
-          <img class="logo-white" src="img/logo1.png" alt="Site Logo">
-          <!-- Logo Dark Version -->
-          <!-- <img class="logo-dark" src="img/logo-dark.png" width="200px" height="150px" alt="Site Logo"> -->
+          <img class="logo-white" src="img/banner.png" alt="Site Logo" id="logoImage">
         </a>
       </div>
       <div class="top-nav s-12 l-10">
         <p class="nav-text"></p>
         <ul class="right chevron">
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a>Services</a>
+            <ul>
+              <li><a href="clients.html">Residential Waste</a></li>
+              <li><a>Office Waste</a></li>
+            </ul>
+          </li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
@@ -52,10 +55,6 @@
           <p class="margin-bottom-0 text-size-16" id="paragraph1">Welcome to Waste Master. Become part of us by signing up either as a Client or a Recycler</p>
           <br>
           <br>
-          <div class="formButtons">
-            <a href="#registerClient"> <button type="button" class="button">Register as Client</button></a>
-            <a href="#registerRecycler"> <button type="button" class="button">Register as Recycler</button></a>
-          </div>
         </div>
       </header>
       <div class="section background-white">
@@ -95,7 +94,7 @@
                 <div class="s-12">
                   <input type="password" placeholder="Password" maxlength="8" id="clientPassword" name="psw" required><br>
                 </div>
-                <div class="s-12"><button class="s-12 submit-form button background-primary text-white" type="submit">Sign Up</button></div>
+                <div class="s-12"><button class="s-12 submit-form button text-white" type="submit">Sign Up</button></div>
               </form>
             </div>
             <div class="s-12 m-12 l-6">
@@ -127,7 +126,7 @@
                 <div class="s-12">
                   <input type="password" name="pwd" placeholder="Password" maxlength="8" id="companyPassword"><br>
                 </div>
-                <div class="s-12"><button class="s-12 submit-form button background-primary text-white" type="submit">Sign Up</button></div>
+                <div class="s-12"><button class="s-12 submit-form button text-white" type="submit">Sign Up</button></div>
               </form>
             </div>
           </div>
@@ -139,7 +138,7 @@
   <footer>
     <!-- Contact Us -->
     <div class="background-primary padding text-center">
-      <p class="h1">Contact Us: 0800 787 787</p>
+      <p class="h1">Contact Us: wastemaster@gmail.com </p>
     </div>
 
     <!-- Main Footer -->
@@ -163,8 +162,8 @@
             </div>
             <div class="margin-left-70 margin-bottom-30">
               <h3 class="margin-bottom-0">Company Address</h3>
-              <p>Responsive Street 7<br>
-                London / United Kingdom / Europe
+              <p>Ngong Lane<br>
+                Nairobi/Kenya
               </p>
             </div>
             <div class="float-left">
@@ -172,8 +171,8 @@
             </div>
             <div class="margin-left-70 margin-bottom-30">
               <h3 class="margin-bottom-0">E-mail</h3>
-              <p>contact@sampledomain.com<br>
-                office@sampledomain.com
+              <p>wastemaster@gmail.com<br>
+                wm@gmail.com
               </p>
             </div>
             <div class="float-left">
@@ -181,9 +180,9 @@
             </div>
             <div class="margin-left-70">
               <h3 class="margin-bottom-0">Phone Numbers</h3>
-              <p>0800 4521 800 50<br>
-                0450 5896 625 16<br>
-                0798 6546 465 15
+              <p>+254 4521 800 50<br>
+                +254 5896 625 16<br>
+                +254 6546 465 15
               </p>
             </div>
           </div>
@@ -192,9 +191,11 @@
     </section>
     <hr class="break margin-top-bottom-0" style="border-color: rgba(0, 38, 51, 0.80);">
   </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="js/responsee.js"></script>
   <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
   <script type="text/javascript" src="js/template-scripts.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
 </body>
 
 </html>
