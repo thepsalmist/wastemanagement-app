@@ -15,41 +15,10 @@
   <link href='https://fonts.googleapis.com/css?family=Playfair+Display&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="js/scripts.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
 </head>
 
 <body class="size-1140">
-  <!-- <header role="banner" class="position-absolute">
-    <nav class="background-transparent background-transparent-hightlight full-width sticky">
-      <div class="s-12 l-2">
-        <a href="index.html" class="logo">
-          <img class="logo-white" src="img/logo.png" alt="">
-          <img class="logo-dark" src="img/logo-dark.png" alt="">
-        </a>
-      </div>
-      <div class="top-nav s-12 l-10">
-        <p class="nav-text"></p>
-        <ul class="right chevron">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="products.html">Products</a></li>
-          <li><a>Services</a>
-            <ul>
-              <li><a>Service 1</a>
-                <ul>
-                  <li><a>Service 1 A</a></li>
-                  <li><a>Service 1 B</a></li>
-                </ul>
-              </li>
-              <li><a>Service 2</a></li>
-            </ul>
-          </li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header> -->
   <header role="banner" class="position-absolute">
     <!-- Top Navigation -->
     <nav class="background-transparent background-transparent-hightlight full-width sticky">
@@ -79,7 +48,6 @@
       </div>
     </nav>
   </header>
-
   <!-- MAIN -->
   <main role="main">
     <!-- Content -->
@@ -122,7 +90,7 @@
                       <p class="name-error form-error">Please enter your phone number.</p>
                     </div>
                     <div class="s-12 m-12 l-6" id="registerForm">
-                      <input name="email" class="required email" placeholder="Your e-mail" title="Your e-mail" type="text" />
+                      <input type="email" id="clientEmail" placeholder="Your e-mail" pattern=".+@gmail.com" size="30" required>
                       <p class="email-error form-error">Please enter your e-mail.</p>
                     </div>
                   </div>
@@ -133,7 +101,7 @@
                 <div class="s-12">
                   <input type="password" placeholder="Password" maxlength="8" id="clientPassword" name="psw" required><br>
                 </div>
-                <div class="s-12"><button class="s-12 submit-form button background-primary text-white" type="submit">Sign Up</button></div>
+                <div class="s-12"><button class="s-12 submit-form button background-primary text-white" type="submit" id="clientSubmit">Sign Up</button></div>
               </form>
             </div>
             <div class="s-12 m-12 l-6">
@@ -154,7 +122,7 @@
                       <p class="name-error form-error">Please enter your phone number.</p>
                     </div>
                     <div class="s-12 m-12 l-6" id="registerForm">
-                      <input name="email" class="required email" placeholder="Company e-mail" title="Your e-mail" type="text" />
+                      <input type="email" id="recyclerEmail" placeholder="Company e-mail" pattern=".+@gmail.com" size="30">
                       <p class="email-error form-error">Please enter your e-mail.</p>
                     </div>
                   </div>
@@ -165,7 +133,7 @@
                 <div class="s-12">
                   <input type="password" name="pwd" placeholder="Password" maxlength="8" id="companyPassword"><br>
                 </div>
-                <div class="s-12"><button class="s-12 submit-form button background-primary text-white" type="submit">Sign Up</button></div>
+                <div class="s-12"><button class="s-12 submit-form button background-primary text-white" type="submit" id="recyclerSubmit">Sign Up</button></div>
               </form>
             </div>
           </div>
