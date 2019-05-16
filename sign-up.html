@@ -35,8 +35,8 @@
           <li><a href="about.html">About</a></li>
           <li><a>Services</a>
             <ul>
-              <li><a href="clients.html">Residential Waste</a></li>
-              <li><a>Office Waste</a></li>
+              <li><a href="clients.html">Residential Services</a></li>
+              <li><a href="Recycle.html">Office Services</a></li>
             </ul>
           </li>
           <li><a href="contact.html">Contact</a></li>
@@ -82,8 +82,8 @@
                       <input class="name" placeholder="Phone Number" id="clientNumber" type="text" />
                       <p class="name-error form-error">Please enter your phone number.</p>
                     </div>
-                    <div class="s-12 m-12 l-6" id="registerForm">
-                      <input name="email" class="required email" placeholder="Your e-mail" title="Your e-mail" type="text" />
+                    <div class="s-12 m-12 l-6">
+                      <input name="email" class="required email" placeholder="Your e-mail" title="Your e-mail" type="text" id="clientEmail" />
                       <p class="email-error form-error">Please enter your e-mail.</p>
                     </div>
                   </div>
@@ -94,7 +94,7 @@
                 <div class="s-12">
                   <input type="password" placeholder="Password" maxlength="8" id="clientPassword" name="psw" required><br>
                 </div>
-                <div class="s-12"><button class="s-12 submit-form button text-white" type="submit">Sign Up</button></div>
+                <div class="s-12"><button class="s-12 submit-form button text-white" type="submit" id="clientSubmit">Sign Up</button></div>
               </form>
             </div>
             <div class="s-12 m-12 l-6">
@@ -115,7 +115,7 @@
                       <p class="name-error form-error">Please enter your phone number.</p>
                     </div>
                     <div class="s-12 m-12 l-6" id="registerForm">
-                      <input name="email" class="required email" placeholder="Company e-mail" title="Your e-mail" type="text" />
+                      <input name="email" class="required email" placeholder="Company e-mail" title="Your e-mail" type="text" id="companyEmail" />
                       <p class="email-error form-error">Please enter your e-mail.</p>
                     </div>
                   </div>
@@ -126,7 +126,7 @@
                 <div class="s-12">
                   <input type="password" name="pwd" placeholder="Password" maxlength="8" id="companyPassword"><br>
                 </div>
-                <div class="s-12"><button class="s-12 submit-form button text-white" type="submit">Sign Up</button></div>
+                <div class="s-12"><button class="s-12 submit-form button text-white" type="submit" id="recyclerSubmit">Sign Up</button></div>
               </form>
             </div>
           </div>

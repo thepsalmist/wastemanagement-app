@@ -34,8 +34,19 @@ $(document).ready(function() {
     client = new Client(clientName);
     console.log(clientName)
     console.log(clientAddress)
-
-
   });
+  $("#recyclerSubmit").click(function(event) {
+    event.preventDefault();
+    console.log("Name")
+    var companyName = $("#companyName").val();
+    var companyAddress = $("#companyAddress").val();
+    var companyNumber = $("#companyNumber").val();
+    var clientEmail = $("#companyEmail").val();
+    var companyUsername = $("#companyUsername").val();
+    var companyPassword = $("#companyPassword").val();
 
+    recycler = new Recycler(recyclerName);
+    console.log(companyName)
+    console.log(clientAddress)
+  });
 });

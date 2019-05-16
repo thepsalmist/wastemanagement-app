@@ -55,6 +55,6 @@
   border-color: #1ECD0C;
 }
 
-#recyclerName {
+#recyclerName, #myName {
   display: none;
 }
