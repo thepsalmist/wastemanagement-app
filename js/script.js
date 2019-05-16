@@ -23,24 +23,17 @@ function Recycler(name, email, address, username, password, number) {
 $(document).ready(function() {
   $("#clientSubmit").click(function(event) {
     event.preventDefault();
-    var clientName = $("#clientName").val;
-    var clientAddress = $("#clientAddress").val;
-    var clientNumber = $("#clientNumber").val;
-    var clientEmail = $("#clientEmail").val;
-    var clientUsername = $("#clientUsername").val;
-    var clientPassword = $("#clientPassword").val;
-    console.log(clientName);
+    console.log("Name")
+    var clientName = $("#firstName").val();
+    var clientAddress = $("#clientAddress").val();
+    var clientNumber = $("#clientNumber").val();
+    var clientEmail = $("#clientEmail").val();
+    var clientUsername = $("#clientUsername").val();
+    var clientPassword = $("#clientPassword").val();
 
-
-
+    client = new Client(clientName);
+    console.log(clientName)
+    console.log(clientAddress)
   });
-
-
-
-
-
-
-
-
 
 });
