@@ -488,7 +488,7 @@ aside.aside-left {
   background-color: #fff !important;
 }
 .background-primary, .primary-color-primary .background-primary {
-  background-color: #C81010 !important;
+  background-color: yellow !important;
 }
 .background-dark, .primary-color-dark .background-primary {
   background-color: green !important;
