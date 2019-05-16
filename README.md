@@ -1,4 +1,4 @@
-#### WasteMaster
+# WasteMaster
 
 ## Contributers:
 1. Xavior Frankline
@@ -38,10 +38,10 @@ https://thepsalmist.github.io/pig-dice/
 
 ## Support and contact details
 Contact: 
-xf.xavierfrank4@gmail.com
-emmasharon19@gmail.com
-estonkaranja881@gmail.com
-jrombae@gmail.com
+1. xf.xavierfrank4@gmail.com
+2. emmasharon19@gmail.com
+3. estonkaranja881@gmail.com
+4. jrombae@gmail.com
 
 ### License
 MIT License
