@@ -1,6 +1,10 @@
 # WasteMaster
 
+<<<<<<< HEAD
 ## Contributers:
+=======
+## Contributors:
+>>>>>>> 6651f797d5dbea8ae1d5b82ae395bd49e80b9aba
 1. Xavier Frankline
 2. Seth Ombae
 3. Eston Karanja
@@ -41,7 +45,7 @@ Contact:
 1. xf.xavierfrank4@gmail.com
 2. emmasharon19@gmail.com
 3. estonkaranja881@gmail.com
-4. jrombae@gmail.com
+4. ombaejr@gmail.com
 
 ### License
 MIT License
