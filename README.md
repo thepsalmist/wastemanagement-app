@@ -45,6 +45,6 @@ Contact:
 
 ### License
 MIT License
-Copyright &&Copy 2019 waste-master
+Copyright (C) 2019 waste-master
 Collapse
 
