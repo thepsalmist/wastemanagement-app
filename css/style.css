@@ -1,0 +1,46 @@
+#aboutInto {
+  height: 600px;
+  margin-top: 20px;
+}
+
+#header1, #paragraph1 {
+  text-align: center;
+  font-weight: bold;
+  color: #010B02;
+}
+
+#cardRow1, #cardRow2, #cardRow3 {
+  background-color: transparent;
+  border: 2px solid #ddd;
+  border-radius: 2px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  height: auto;
+}
+
+#impactRow1, #impactRow2 {
+  background-color: transparent;
+  border: 2px solid #ddd;
+  border-radius: 2px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  height: auto;
+}
+
+#scheduleForm {
+  background-color: transparent;
+  border: 2px solid #ddd;
+  border-radius: 2px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  height: auto;
+}
+
+#stat1, #stat2 {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.formButtons {
+  text-align: center;
+}
