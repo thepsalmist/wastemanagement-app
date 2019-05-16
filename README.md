@@ -48,5 +48,8 @@ MIT License
 Copyright (c) 2019 waste-master
 Collapse
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> development
