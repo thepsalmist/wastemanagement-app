@@ -34,6 +34,8 @@ $(document).ready(function() {
     client = new Client(clientName);
     console.log(clientName)
     console.log(clientAddress)
+
+
   });
 
 });
