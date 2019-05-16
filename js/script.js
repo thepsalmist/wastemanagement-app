@@ -29,6 +29,7 @@ $(document).ready(function() {
     var clientEmail = $("#clientEmail").val;
     var clientUsername = $("#clientUsername").val;
     var clientPassword = $("#clientPassword").val;
+    console.log(clientName);
 
 
 
