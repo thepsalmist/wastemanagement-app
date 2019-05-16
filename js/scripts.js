@@ -6,7 +6,11 @@ jQuery(document).ready(function($) {
     dots: true,
     items: 1,
     loop: true,
+<<<<<<< HEAD
     navText: ["&#xe605", "&#xe606"],
+=======
+    navText: ["&#xe605","&#xe606"],
+>>>>>>> seth
     autoplay: true,
     autoplayTimeout: 4000
   });
@@ -29,7 +33,11 @@ jQuery(document).ready(function($) {
       }
     },
     loop: true,
+<<<<<<< HEAD
     navText: ["&#xe605", "&#xe606"],
+=======
+    navText: ["&#xe605","&#xe606"],
+>>>>>>> seth
     autoplay: true,
     autoplayTimeout: 5000
   });
@@ -52,7 +60,11 @@ jQuery(document).ready(function($) {
       }
     },
     loop: true,
+<<<<<<< HEAD
     navText: ["&#xe605", "&#xe606"],
+=======
+    navText: ["&#xe605","&#xe606"],
+>>>>>>> seth
     autoplay: true,
     autoplayTimeout: 5000
   });
@@ -63,7 +75,11 @@ jQuery(document).ready(function($) {
     dots: true,
     items: 1,
     loop: true,
+<<<<<<< HEAD
     navText: ["&#xe605", "&#xe606"],
+=======
+    navText: ["&#xe605","&#xe606"],
+>>>>>>> seth
     autoplay: true,
     animateOut: 'fadeOut',
     autoplayTimeout: 4000
@@ -71,6 +87,7 @@ jQuery(document).ready(function($) {
 
   // Sticky Nav Bar
   $(window).scroll(function() {
+<<<<<<< HEAD
     if ($(this).scrollTop() > 20) {
       $('.sticky').addClass("fixed");
     } else {
@@ -78,3 +95,13 @@ jQuery(document).ready(function($) {
     }
   });
 });
+=======
+    if ($(this).scrollTop() > 20){
+        $('.sticky').addClass("fixed");
+    }
+    else{
+        $('.sticky').removeClass("fixed");
+    }
+  });   
+});
+>>>>>>> seth
