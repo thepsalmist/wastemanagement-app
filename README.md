@@ -22,7 +22,7 @@ the webpage and get to select the type of waste they wish to recieve for recylin
 
 ## Setup/Installation Requirements
 To start using this project use the following commands:
-1. git clone https://github.com/thepsalmist/pig-dice
+1. git clone https://thepsalmist.github.io/wastemanagement-app/
 2. cd wastemanagement-app to navigate to project directory
 3. atom .(to open in atom editor)
 4. code .(to open in atom)
@@ -34,7 +34,7 @@ To view the page as a user, click on the link to application live page below.
 3. JavaScript(Jquery)
 
 ## Link to View Aplication
-https://thepsalmist.github.io/pig-dice/
+https://thepsalmist.github.io/wastemanagement-app/
 
 ## Support and contact details
 Contact:
